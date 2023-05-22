@@ -4,5 +4,19 @@
     igual a 18 anos.
 '''
 
-nome = []
-idade = []
+nomes = []
+idades = []
+
+def buscarIdade(nomes, idades):
+    for i in range(len(nomes)):
+        if idades[i] >= 18:
+            print(f"As pessoas com 18 anos ou mais são: {nomes[i]}")
+
+
+for i in range(10):
+    nome = input("Informe o nome da pessoa: ")
+    idade = int(input("Informe a idade da pessoa: "))
+    nomes.append(nome)
+    idades.append(idade)
+
+buscarIdade(nomes, idades)

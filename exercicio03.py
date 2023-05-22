@@ -5,3 +5,14 @@
     c. o maior número da lista. 
     d. o menor número da lista.
 '''
+import random 
+
+numeros = []
+
+for i in range(20):
+    numeros.append(random.randint(1,20))
+
+print(f"Os números sorteados foram: {numeros}")
+print(f"A somatória de todos os números são {sum(numeros)}")
+print(f"O maior número da lista é {max(numeros)}")
+print(f"O menor número da lista é {min(numeros)}")

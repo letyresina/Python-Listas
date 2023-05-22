@@ -3,3 +3,6 @@
     outra lista. Na sequência, exiba os nomes de todas as pessoas que possuem idade maior ou 
     igual a 18 anos.
 '''
+
+nome = []
+idade = []
